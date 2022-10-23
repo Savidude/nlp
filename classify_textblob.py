@@ -7,6 +7,7 @@ from textblob.sentiments import NaiveBayesAnalyzer
 
 # import nltk
 # nltk.download('movie_reviews')
+# nltk.download('punkt')
 
 def categorize_sentiment(sentiment):
     if sentiment == "pos":
