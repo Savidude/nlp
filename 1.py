@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 
 reviews = pd.read_csv("data/derived/restaurant_reviews_textblob.csv", sep="\t")
+# reviews = pd.read_csv("data/derived/restaurant_reviews_sentistrength.csv", sep="\t")
 
 x, y = [], []
 for i, review in reviews.iterrows():
@@ -17,3 +18,4 @@ print(f'Pearson correlation coefficient: {r[0, 1]}')
 # Current output: +0.27443338505026915, which means that
 # there is a small correlation between sentiment polarity
 # and the annotation.
+# When using SentiStrength output: +0.44666468062732084
