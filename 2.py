@@ -3,6 +3,7 @@ from numpy.linalg import norm
 import pandas as pd
 
 reviews = pd.read_csv("data/derived/restaurant_reviews_textblob.csv", sep="\t")
+# reviews = pd.read_csv("data/derived/restaurant_reviews_sentistrength.csv", sep="\t")
 
 x, y = [], []
 x_pos, y_pos = [], []
@@ -29,3 +30,11 @@ print("Cosine Similarity of the positive class:", cosine_pos)
 
 # cosine_neg = np.dot(x_neg, y_neg) / (norm(x_neg) * norm(y_neg))
 # print("Cosine Similarity of the negative class:", cosine_neg)
+
+# Results
+# --- TextBlob ---
+# Cosine Similarity: 0.6772714590276805
+# Cosine Similarity of the positive class: 0.8694826047713663
+# --- Sentistrength ----
+# Cosine Similarity: 0.7736605769718724
+# Cosine Similarity of the positive class: 0.9889388252060891
