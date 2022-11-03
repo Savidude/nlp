@@ -15,7 +15,7 @@ You can run the following command in the root directory of the project
 ```pip install -r requirements.txt```
   4. There are two python scripts that needs to be run in order to generate ```restaurant_reviews_sentistrength.csv``` and ```restaurant_reviews_textblob.csv```. These files already exists inside ```data\derived``` folder.
   5. Run Jupiter Notebook on top of your activated environment.
-     You can run any of the ```.ipynb``` files listed inside the project using command jupiter notebook ```<name_of_the_file.ipynb>```
+     You can run any of the ```.ipynb``` files listed inside the project using command ```jupiter notebook <name_of_the_file.ipynb>```
 
 ### Used libraries
 ```
