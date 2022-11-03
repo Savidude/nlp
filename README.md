@@ -12,7 +12,7 @@ Machine Learning
   2. Create and activate a virtual environment
   3. Install dependencies from ```requirements.txt```.
 You can run the following command in the root directory of the project
-```pip install requirements.txt```
+```pip install -r requirements.txt```
   4. Run Jupiter Notebook on top of your activated enviroment
   5. You can run any of the ```.ipynb``` files listed inside the project
 
