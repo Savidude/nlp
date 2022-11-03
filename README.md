@@ -21,7 +21,7 @@ and manipulate with your virtual env from Anaconda Navigator.
   5. After cloning the repository go to the root folder of the project and sure that your ```<name_of_your_env>``` is activated and execute the following command ```pip install -r requirements.txt```
   6. It will take some time so please be patient :)
   7. There are two python scripts that needs to be run in order to generate ```restaurant_reviews_sentistrength.csv``` and ```restaurant_reviews_textblob.csv```. These files already exists inside ```data\derived``` folder.
-  8. As an example, you can launch the Jupiter Notebook from conda terminal by executing the following command ```python -m jupiter 1_pearson_correlation.ipynb```. Jupiter Notebook should open on a browser and the code that is related to the task 1 can be found/executing just from the Notebook
+  8. As an example, you can launch the Jupiter Notebook from conda terminal by executing the following command ```python -m jupiter 1_pearson_correlation.ipynb```. Jupiter Notebook should open on a browser and the code that is related to the task 1 can be found/executed just from the Notebook
 
 ### Used libraries
 ```
