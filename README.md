@@ -9,7 +9,7 @@ Machine Learning
 
 ### Setup
 Primary operating system that has been used during the development stage - Windows. If you are using other OS the installation process might be
-slightly different but the overall workflow will not different too mych. Create environment -> Install libraries from requirements.txt -> launch the file on a Jupiter Notebook
+slightly different but the overall workflow will not differ too much. Create environment -> Install libraries from requirements.txt -> launch the file on a Jupiter Notebook
 
 It is quite convenient to install anaconda from https://docs.anaconda.com/anaconda/install/windows/
 and manipulate with your virtual env from Anaconda Navigator.
