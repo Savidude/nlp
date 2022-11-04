@@ -2,7 +2,7 @@ import numpy as np
 from numpy.linalg import norm
 import pandas as pd
 
-reviews = pd.read_csv("data/derived/restaurant_reviews_textblob.csv", sep="\t")
+reviews = pd.read_csv("../data/derived/restaurant_reviews_textblob.csv", sep="\t")
 # reviews = pd.read_csv("data/derived/restaurant_reviews_sentistrength.csv", sep="\t")
 
 x, y = [], []
